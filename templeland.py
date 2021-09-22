@@ -24,9 +24,9 @@ try:
                         break
                 #print(">mid: ",flag)
             if flag==False:
-                print("False")
+                print("no")
             else:
-                print("True")
+                print("yes")
             s-=1
 
     temple(s)
