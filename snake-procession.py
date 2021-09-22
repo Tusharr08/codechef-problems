@@ -12,7 +12,7 @@ try:
         l=len(snake)
         flag=0
         if(l%2!=0):
-            print("INVALID")
+            print("Invalid")
         else:
             for i in range(l):
                 if i%2==0 and snake[i]!='H':
@@ -21,8 +21,8 @@ try:
                 elif i%2!=0 and snake[i]!='T':
                     flag=1
                     break
-            if(flag):print("INVALID")
-            else: print("VALID")
+            if(flag):print("Invalid")
+            else: print("Valid")
         t-=1
 
 except EOFError:
